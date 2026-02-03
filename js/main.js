@@ -52,5 +52,12 @@ let app = new Vue({
             return this.variants[this.selectedVariant].variantQuantity
         },
 
+        sale() {
+            if (this.onSale){
+                return this.brand + ' ' + this.product + " yes итс а сасалеле!!!";
+            }
+            return this.brand + ' ' + this.product;
+        }
+
     },
 })
