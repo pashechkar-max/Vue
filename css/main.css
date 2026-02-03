@@ -87,3 +87,11 @@ textarea {
     color: #16C0B0;
     text-decoration: underline;
 }
+
+.color-box{
+    color: white;
+}
+
+.disabledP{
+    text-decoration: line-through;
+}
