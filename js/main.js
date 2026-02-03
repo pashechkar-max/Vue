@@ -25,9 +25,11 @@ Vue.component('product', {
                :disabled="!inStock"
                :class="{ disabledP: !inStock}">
                 Out of Stock</p>
-            <ul>
-                <li v-for="detail in details">{{ detail }}</li>
-            </ul>
+                <product-details :details="details"></product-details>
+<!--            <ul>-->
+<!--                <li v-for="detail in details">{{ detail }}</li>-->
+<!--            </ul>-->
+            
             <div class="color-box"
                  v-for="(variant, index) in variants"
                  :key="variant.variantId"
@@ -120,7 +122,23 @@ Vue.component('product', {
                 return 2.99
             }
         },
-    }
+    },
+})
+
+Vue.component('product-details', {
+    props: {
+        details: {
+            type: Array,
+            required: true
+        }
+    },
+    template: `
+    <div class="detail">
+        <ul>
+            <li v-for="detail in details">{{ detail }}</li>
+        </ul>
+    </div>
+`
 })
 
 let app = new Vue({
