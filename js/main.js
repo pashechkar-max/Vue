@@ -24,7 +24,6 @@ let app = new Vue({
         ],
         sizes: ['S', 'M', 'L'],
         cart: 0,
-
     },
     methods: {
         addToCart() {
