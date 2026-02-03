@@ -37,4 +37,3 @@ let app = new Vue({
         }
     },
 })
-
