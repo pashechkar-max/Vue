@@ -24,13 +24,12 @@ Vue.component('product-tabs', {
            </li>
          </ul>
        </div>
-<!--       <div v-show="selectedTab === 'Make a Review'">-->
-<!--         <product-review @review-submitted="addReview"></product-review>-->
-<!--       </div>-->
+       <div v-show="selectedTab === 'Make a Review'">
+         <product-review @review-submitted="addReview"></product-review>
+       </div>
 <product-review></product-review>
      </div>
 `,
-
         data() {
         return {
             tabs: ['Reviews', 'Make a Review'],
