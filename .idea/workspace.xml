@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="камит номер 23442">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="камит номер 2344">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -38,6 +36,9 @@
     "accountId": "baab83a3-48f9-44eb-ab84-930f76eb7691"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770047417273</updated>
-      <workItem from="1770047418090" duration="15783000" />
+      <workItem from="1770047418090" duration="17248000" />
     </task>
     <task id="LOCAL-00001" summary="commit one">
       <option name="closed" value="true" />
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770100209615</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="камит номер 2344">
+      <option name="closed" value="true" />
+      <created>1770209409665</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770209409665</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +206,7 @@
     <MESSAGE value="practic_8_end" />
     <MESSAGE value="practicccc" />
     <MESSAGE value="камит номер 23442" />
-    <option name="LAST_COMMIT_MESSAGE" value="камит номер 23442" />
+    <MESSAGE value="камит номер 2344" />
+    <option name="LAST_COMMIT_MESSAGE" value="камит номер 2344" />
   </component>
 </project>
