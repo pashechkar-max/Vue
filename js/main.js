@@ -91,7 +91,7 @@ Vue.component('product-tabs', {
         },
         methods:{
             onSubmit() {
-                this.errors = []; // Очищаем ошибки перед проверкой
+                this.errors = [];
 
                 if(this.name && this.review && this.rating) {
                     let productReview = {
@@ -99,7 +99,7 @@ Vue.component('product-tabs', {
                         review: this.review,
                         rating: this.rating
                     }
-                    this.$emit('review-submitted', productReview); // Используем $emit вместо eventBus
+                    this.$emit('review-submitted', productReview);
                     this.name = null
                     this.review = null
                     this.rating = null
