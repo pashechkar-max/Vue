@@ -1,6 +1,5 @@
 Vue.component('product-review', {
     template: `
-   <input v-model="name">
    
    <form class="review-form" @submit.prevent="onSubmit">
  <p>
@@ -34,7 +33,7 @@ Vue.component('product-review', {
     data() {
         return {
             name: null,
-            review: [],
+            review: null,
             rating: null
         }
     },
@@ -51,9 +50,6 @@ Vue.component('product-review', {
             this.review = null
             this.rating = null
         },
-        addReview(productReview) {
-            this.reviews.push(productReview)
-        }
 
     }
 
@@ -99,17 +95,17 @@ Vue.component('product', {
        
        </div>
        <div>
-        <h2>Reviews</h2>
-        <p v-if="!reviews.length">There are no reviews yet.</p>
-        <ul>
-          <li v-for="review in reviews">
-          <p>{{ review.name }}</p>
-          <p>Rating: {{ review.rating }}</p>
-          <p>{{ review.review }}</p>
-          </li>
-        </ul>
+            <h2>Reviews</h2>
+            <p v-if="!reviews.length">There are no reviews yet.</p>
+            <ul>
+              <li v-for="review in reviews">
+              <p>{{ review.name }}</p>
+              <p>Rating: {{ review.rating }}</p>
+              <p>{{ review.review }}</p>
+              </li>
+            </ul>
         </div>
-
+        <product-review @review-submitted="$parent.addReview"></product-review>
    </div>
  `,
     data() {
@@ -119,6 +115,7 @@ Vue.component('product', {
             selectedVariant: 0,
             altText: "A pair of socks",
             details: ['80% cotton', '20% polyester', 'Gender-neutral'],
+            reviews: [],
             variants: [
                 {
                     variantId: 2234,
@@ -142,7 +139,10 @@ Vue.component('product', {
         updateProduct(index) {
             this.selectedVariant = index;
             console.log(index);
-        }
+        },
+        addReview(productReview) {
+            this.reviews.push(productReview)
+        },
     },
     computed: {
         title() {
