@@ -3,6 +3,13 @@ Vue.component('product-tabs', {
         reviews: {
             type: Array,
             required: false
+        },
+        shipping: {
+            required: false
+        },
+        details: {
+            type: Array,
+            required: false
         }
     },
     template: `
@@ -27,11 +34,21 @@ Vue.component('product-tabs', {
        <div v-show="selectedTab === 'Make a Review'">
          <product-review @review-submitted="addReview"></product-review>
        </div>
+       
+       <div v-show="selectedTab === 'Shipping'">
+         <p>Shipping: {{ shipping }}</p>
+       </div>
+       
+       <div v-show="selectedTab === 'Details'">
+            <ul>
+                <li v-for="detail in details">{{ detail }}</li>
+            </ul>
+       </div>
      </div>
 `,
     data() {
         return {
-            tabs: ['Reviews', 'Make a Review'],
+            tabs: ['Reviews', 'Make a Review', 'Shipping', 'Details'],
             selectedTab: 'Reviews'
         }
     },
