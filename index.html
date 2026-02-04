@@ -1,6 +1,3 @@
-<script defer src="js/vue.js"></script>
-<script defer src="js/main.js"></script>
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -14,10 +11,17 @@
     <h1>Product Name: {{ product }}</h1>
     <p>{{ description }}</p>
     <span v-show="onSale">on Sale</span>
-    <a v-bind:href="url">More products like this</a>
-    <product :premium="premium"></product>
+    <a v-bind:href="url">More products like this</a
+
+    <div class="cart">
+        <p>Cart({{ cart }})</p>
+    </div>
+    <product :premium="premium" @add-to-cart="updateCart"></product>
 
 </div>
+
+<script defer src="js/vue.js"></script>
+<script defer src="js/main.js"></script>
 
 </body>
 </html>

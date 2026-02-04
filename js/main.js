@@ -43,9 +43,11 @@ Vue.component('product', {
             </div>
             <p>Shipping: {{ shipping }}</p>
 <!--            <p>User is premium: {{ premium }}</p>-->
-            <div class="cart">
-                <p> Cart {{cart}}</p>
+            
+            <div class="product-cart">
+                <p>Product Cart: {{ productCart }}</p>
             </div>
+            
             <button v-on:click="addToCart"
                 :disabled="!inStock"
                 :class="{ disabledButton: !inStock }">
@@ -64,7 +66,7 @@ Vue.component('product', {
             selectedVariant: 0,
             altText: "A pair of socks",
             url: "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks.",
-            inStock: false,
+            inStock: true,
             inventory: 0,
             onSale: true,
             details: ['80% cotton', '20% polyester', 'Gender-neutral'],
@@ -87,8 +89,11 @@ Vue.component('product', {
         }
     },
     methods: {
+        updateCart() {
+            this.cart += 1;
+        },
         addToCart() {
-            this.cart += 1
+            this.$emit('add-to-cart');
         },
         removeToCart() {
             this.cart -= 1
@@ -144,6 +149,7 @@ Vue.component('product-details', {
 let app = new Vue({
     el: '#app',
     data: {
-        premium: true
+        premium: true,
+        cart: 0,
     },
 })

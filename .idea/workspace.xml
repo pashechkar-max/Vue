@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="камит номер 23442">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pashechkar-max"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pashechkar-max/Vue.git",
+    "accountId": "baab83a3-48f9-44eb-ab84-930f76eb7691"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="397W6fmYBpCmRYtGQTMGlhflc9y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ushak\WebstormProjects\practic_1\assets" />
+      <recent name="C:\Users\ushak\WebstormProjects\practic_1\css" />
+      <recent name="C:\Users\ushak\WebstormProjects\practic_1\js" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="" />
+      <created>1770047417273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770047417273</updated>
+      <workItem from="1770047418090" duration="15783000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit one">
+      <option name="closed" value="true" />
+      <created>1770047865523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770047865524</updated>
+    </task>
+    <task id="LOCAL-00002" summary="practic_4">
+      <option name="closed" value="true" />
+      <created>1770087752616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770087752616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="practic_4">
+      <option name="closed" value="true" />
+      <created>1770088526559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770088526559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="practic_qwe">
+      <option name="closed" value="true" />
+      <created>1770089995573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770089995573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="practic_qwe">
+      <option name="closed" value="true" />
+      <created>1770090045202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770090045202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practic_qwe">
+      <option name="closed" value="true" />
+      <created>1770090172671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770090172671</updated>
+    </task>
+    <task id="LOCAL-00007" summary="practic_7">
+      <option name="closed" value="true" />
+      <created>1770091508529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770091508529</updated>
+    </task>
+    <task id="LOCAL-00008" summary="practic_7">
+      <option name="closed" value="true" />
+      <created>1770091562818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770091562818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="practic_7_end">
+      <option name="closed" value="true" />
+      <created>1770096314050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770096314050</updated>
+    </task>
+    <task id="LOCAL-00010" summary="practic_8_end">
+      <option name="closed" value="true" />
+      <created>1770097212209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770097212209</updated>
+    </task>
+    <task id="LOCAL-00011" summary="practicccc">
+      <option name="closed" value="true" />
+      <created>1770098906206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770098906206</updated>
+    </task>
+    <task id="LOCAL-00012" summary="камит номер 23442">
+      <option name="closed" value="true" />
+      <created>1770100209615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770100209615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit one" />
+    <MESSAGE value="practic_4" />
+    <MESSAGE value="practic_qwe" />
+    <MESSAGE value="practic_7" />
+    <MESSAGE value="practic_7_end" />
+    <MESSAGE value="practic_8_end" />
+    <MESSAGE value="practicccc" />
+    <MESSAGE value="камит номер 23442" />
+    <option name="LAST_COMMIT_MESSAGE" value="камит номер 23442" />
+  </component>
+</project>
