@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="камит номер 2344">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="камит практик 9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770047417273</updated>
-      <workItem from="1770047418090" duration="17248000" />
+      <workItem from="1770047418090" duration="17617000" />
     </task>
     <task id="LOCAL-00001" summary="commit one">
       <option name="closed" value="true" />
@@ -191,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770209409665</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="камит практик 9">
+      <option name="closed" value="true" />
+      <created>1770211007728</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770211007728</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +211,7 @@
     <MESSAGE value="practicccc" />
     <MESSAGE value="камит номер 23442" />
     <MESSAGE value="камит номер 2344" />
-    <option name="LAST_COMMIT_MESSAGE" value="камит номер 2344" />
+    <MESSAGE value="камит практик 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="камит практик 9" />
   </component>
 </project>
