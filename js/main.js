@@ -228,6 +228,8 @@ Vue.component('product-tabs', {
         }
     });
 
+
+
 let eventBus = new Vue();
 
 let app = new Vue({
