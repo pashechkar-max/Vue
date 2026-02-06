@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="11 forms practic 10 gotovo">
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    <list default="true" id="347003b8-29ea-46aa-88cd-aa97d713f777" name="Changes" comment="все the end">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770047417273</updated>
-      <workItem from="1770047418090" duration="25754000" />
+      <workItem from="1770047418090" duration="27490000" />
     </task>
     <task id="LOCAL-00001" summary="commit one">
       <option name="closed" value="true" />
@@ -285,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770219258586</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="практик 10 ujnjdjj!!!!!">
+      <option name="closed" value="true" />
+      <created>1770220053743</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1770220053743</updated>
+    </task>
+    <task id="LOCAL-00027" summary="все the end">
+      <option name="closed" value="true" />
+      <created>1770220084550</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1770220084550</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +320,8 @@
     <MESSAGE value="камит практик 9" />
     <MESSAGE value="11 forms" />
     <MESSAGE value="11 forms practic 10 gotovo" />
-    <option name="LAST_COMMIT_MESSAGE" value="11 forms practic 10 gotovo" />
+    <MESSAGE value="практик 10 ujnjdjj!!!!!" />
+    <MESSAGE value="все the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="все the end" />
   </component>
 </project>

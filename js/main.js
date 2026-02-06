@@ -184,13 +184,15 @@ Vue.component('product-tabs', {
                         variantId: 2234,
                         variantColor: 'green',
                         variantImage: "./assets/vmSocks-green-onWhite.jpg",
-                        variantQuantity: 10
+                        variantQuantity: 10,
+                        price: 3434,
                     },
                     {
                         variantId: 2235,
                         variantColor: 'blue',
                         variantImage: "./assets/vmSocks-blue-onWhite.jpg",
-                        variantQuantity: 0
+                        variantQuantity: 0,
+                        price: 3,
                     }
                 ],
                 reviews: []
